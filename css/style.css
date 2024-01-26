@@ -60,7 +60,6 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 50px;
-    padding-bottom: 10px;
 }
 
 .conteudo-principal-texto {
@@ -110,7 +109,7 @@ body{
 }
 
 .conteudo-principal-imagem {
-    height: 350px;
+    height: 425px;
     border-radius: 50%;
 }
 
@@ -118,16 +117,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 16px;
     margin-top: 36px;
 }
 
 .conteudo-secundario-titulo {
     border-top: 0.4px solid white;
-    padding-top: 20px;
+    padding-top: 30px;
     font-family: 'Righteous', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 35px;
     color: white;
     margin-bottom: 16px;
 }
@@ -135,7 +134,7 @@ body{
 .conteudo-secundario-paragrafo {
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
 }
 
