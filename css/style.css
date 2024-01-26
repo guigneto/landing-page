@@ -106,6 +106,7 @@ body{
 .conteudo-principal-texto-botao:hover {
     background-color: #3ED0EB;
     cursor: pointer;
+    transform: scale(1.04);
 }
 
 .conteudo-principal-imagem {
