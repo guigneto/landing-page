@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    body{
+        height: auto;
+        background: linear-gradient(120deg,#2bc0e4, #FF83F6);
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .cabecalho-imagem {
+        display: none;
+    }
+    
+    .cabecalho-menu {
+        display: flex;
+        gap: 16px;
+    }
+    
+    .cabecalho-menu-item {
+        font-family: 'Sarala', sans-serif;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition-duration: 0.5s;
+    }
+
+    section.conteudo-principal{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+    }
+
+    div.conteudo-principal-texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    img.conteudo-principal-imagem {
+        margin-top:50px;
+        height: 200px;
+    }
+
+    section.conteudo-secundario {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    section.conteudo-secundario h3 {
+        font-size: 40px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+    }
+
+    section.conteudo-secundario p {
+        font-size: 18px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+}
