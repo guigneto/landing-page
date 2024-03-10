@@ -121,6 +121,7 @@ body{
     align-items: center;
     gap: 16px;
     margin-top: 36px;
+    padding-bottom: 16px;
 }
 
 .conteudo-secundario-titulo {
