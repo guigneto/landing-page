@@ -2,8 +2,10 @@
 
 @media screen and (max-width: 768px) {
     body{
-        height: auto;
-        background: linear-gradient(120deg,#2bc0e4, #FF83F6);
+        font-size: 100%;
+        height: 100vh;
+        background: linear-gradient(120deg,#3ED0EB,#FF83F6);
+        background-attachment: fixed;
     }
 
     .cabecalho {
